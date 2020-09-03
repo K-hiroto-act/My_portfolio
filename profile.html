@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel='stylesheet' href='https://unpkg.com/ress/dist/ress.min.css'>
+    <link rel="stylesheet" href="style_profile.css">
+    <link rel="stylesheet" href="responsive_profile.css" media="screen and (max-width:780px)">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700" rel="stylesheet">
+<body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
+        <div id="loader-bg">
+            <div id="loader">
+              <img src="img_profile/img-loding.gif" width="80" height="80" alt="Now Loading..." />
+              <p>Now Loading...</p>
+            </div>
+          </div>
+          <div id="wrap">
+              <div class="wrapper">
+        <header>
+            <h1 class="title">portfolio</h1>
+            <nav class="nav-menu">
+                <ul class="menu">
+                    <li class="menu-item"><a class="menu-link" href="#profile">Profile</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#skill">My Skill</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#work">Work</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+            <div class="menu-trigger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>        
+              <nav class="response-li">
+            <ul>
+              <li><a href="#profile">Profile</a></li>
+              <li><a href="#skill">My Skill</a></li>
+              <li><a href="#work">Work</a></li>
+              <li><a href="#contact">Contact Me</a></li>
+            </ul> 
+        </header>
+    <p class="page-up">
+        <a href="#top">
+          <span>&uarr;<br>トップへ</span>
+        </a>
+      </p>
+    <main>
+        <section class="page-top">
+            <div class="page-top-wrap">
+            <h2>PORTFOLIO</h2>
+            <h3>HIROTO KASHIMA</h3>
+            <div class="container-btn">
+                <a href="#profile" class="btn-open">Look Down</a>
+                </div>
+            <!--<p><a href="#profile" class="LD">Look Down</a></p>-->
+            </div>
+        </section>
+        <section class="profile" id="profile">
+            <div class="container">
+                <h2>PROFILE</h2>
+                <h3>プロフィール</h3>
+            </div>
+
+            <div class="row">
+                <div class="myimg"></div>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>名前</td>
+                                <td>加島寛人(かしまひろと)</td>
+                            </tr>
+                            <tr>
+                                <td>年齢</td>
+                                <td>21歳(1999/2/13)</td>
+                            </tr>
+                            <tr>
+                                <td>出身地</td>
+                                <td>愛知県</td>
+                            </tr>
+                            <tr>
+                                <td>趣味</td>
+                                <td>読書(オーディブル)・旅行</td>
+                            </tr>
+                            <tr>
+                                <td>活動</td>
+                                <td>独学でフロントエンドを中心に勉強、webを制作している。<br>
+                                    最近ではバックエンドの勉強を開始。
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </div>
+        </section>
+        <section class="skill" id="skill">
+            <div class="container">
+                <h2>My Skill</h2>
+                <h3>スキル</h3>
+            </div>
+                <ul>
+                    <li class="list-html">
+                        <img src="img_profile/html5_img.png" alt="HTML">
+                        <div class="inner">
+                            <p>基本的な事は一通り実装可能です。</p>
+                            <div class='bar'>
+                                <div class='bar-info html' data-total='90'>
+                                HTML5
+                                <span class='percent'>90</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-css">
+                        <img src="img_profile/css_img.png" alt="CSS">
+                        <div class="inner">
+                            <p>基本的な事は一通り実装可能です。</p>
+                            <div class='bar'>
+                                <div class='bar-info css' data-total='80'>
+                                CSS3
+                                <span class='percent'>80</span>
+                                </div>
+                            </div>
+                          </div>
+                    </li>
+                    <li class="list-js">
+                        <img src="img_profile/javascript_img.png" alt="Js">
+                        <div class="inner">
+                            <p>アニメーションの実装が可能です。</p>
+                            <div class="bar">
+                            <div class='bar-info js' data-total='60'>
+                                JavaScript
+                                <span class='percent'>60</span>
+                            </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-scss">
+                        <img src="img_profile/scss_img.png" alt="SCSS">
+                        <div class="inner">
+                            <p>基本的な事は一通り実装可能です。</p>
+                            <div class="bar">
+                                <div class='bar-info scss' data-total='70'>
+                                SCSS
+                                <span class='percent'>70</span>
+                            </div>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="list-jquery">
+                        <img src="img_profile/jQuery_img.png" alt="jQuery">
+                        <div class="inner">
+                            <p>ハンバーガーメニュやスクロールの実装が可能です。</p>
+                            <div class="bar">
+                                <div class='bar-info jquery' data-total='65'>
+                                jQuery
+                                <span class='percent'>65</span>
+                            </div>
+                            </div>
+                        </div>
+                        
+                    </li>
+                    <li class="list-boot">
+                        <img src="img_profile/bootstrap_img.png" alt="bootstrap">
+                        <div class="inner">
+                            <p>レスポンシブや特有のコード記述が可能です。</p>
+                        <div class="bar">
+                            <div class='bar-info bs' data-total='75'>
+                            BootStrap4
+                            <span class='percent'>75</span>
+                        </div>
+                        </div>
+                        
+                    </li>
+                    <li class="list-wp">
+                        <img src="img_profile/Wordpress_img.png" alt="Wordpress">
+                        <div class="inner">
+                            <p>0からドメイン取得,設定、サイト公開まで可能です。</p>
+                            <div class="bar">
+                                <div class='bar-info wp' data-total='65'>
+                                WordPress
+                                <span class='percent'>65</span>
+                            </div>
+                            </div>
+                        </div>
+                        
+                    </li>
+                    <li class="list-ps">
+                        <img src="img_profile/photoshop_img.png" alt="Ps">
+                        <div class="inner">
+                            <p>画像の加工,合成や色彩抽出などその他可能です。</p>
+                            <div class="bar">
+                                <div class='bar-info ps' data-total='70'>
+                                PhotoShop
+                                <span class='percent'>70</span>
+                            </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+        </section>
+        <section class="work" id="work">
+            <div class="container">
+                <h2>WORK</h2>
+                <h3>制作物</h3>
+            </div>
+            <div class="portfolio-main-wrap">
+                <div class="main-wrap-left">
+                    <a href="http://oasis-web.work"><img src="img_profile/portfolio_main.png" alt="ポートフォリオサイト1"></a>
+                </div>
+                <div class="main-wrap-right">
+                    <h2>OASIS<span>(架空サイト)</span></h2>
+                    <p><span>使用詳細環境</span></p>
+                    <p>言語：HTML5,CSS3,JavaScript</p>
+                    <p>フレームワーク：jQuery,swiper,gsap</p>
+                    <p>API：Google Map API</p>
+                    <p>ツール：adobe PhotoShop</p>
+                    <p>サイトページ数：5</p>
+                    <a href="http://oasis-web.work">サイトURL</a>
+                </div>
+            </div>
+            <h4>模写コーディング</h4>
+            <div class="portfolio-sub-wrap">
+                <a href="https://drive.google.com/drive/folders/1Lb4K_rCivQJ8e0rtv7soTZrPrkOMiScT?usp=sharing"><img src="img_profile/portfolio_sub1.png" alt=""></a>
+                <a href="https://drive.google.com/drive/folders/1Lb4K_rCivQJ8e0rtv7soTZrPrkOMiScT?usp=sharing"><img src="img_profile/portfolio_sub2.png" alt=""></a>
+                <a href="https://drive.google.com/drive/folders/1Lb4K_rCivQJ8e0rtv7soTZrPrkOMiScT?usp=sharing"><img src="img_profile/portfolio_sub3.png" alt=""></a>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <h3>お問い合わせ</h3>
+                </div>
+                <p>お気軽にお問い合わせください。</p>
+                <div class="content">
+                    <div class="btn">
+                        <a href="mailto:address"><i class="far fa-envelope"></i> Please Contact me</a>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <p>©HIROTO KASHIMA 2020</p>
+    </footer>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="portfolio_js.js"></script>
+</body>
+</html>
